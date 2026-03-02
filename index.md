@@ -7,7 +7,7 @@ title: Home
 
 <style>
 #main_content_wrap.outer {
-  max-width: 1200px;    /* widen outer container */
+  max-width: 2000px;    /* widen outer container */
   width: 95%;
   margin-left: auto;    /* center horizontally */
   margin-right: auto;
