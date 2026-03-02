@@ -6,13 +6,18 @@ title: Home
 # Welcome to My Website
 
 <style>
-/* Make content wider */
-.wrapper,
-.container,
-.page-content,
-.main-content {
-  max-width: 1600px !important;
-  width: 95% !important;
+#main_content_wrap.outer {
+  max-width: 1400px;    /* widen outer container */
+  width: 95%;
+  margin-left: auto;    /* center horizontally */
+  margin-right: auto;
+}
+
+#main_content.inner {
+  max-width: 1400px;    /* widen inner container */
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Tabs styling */
