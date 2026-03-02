@@ -74,10 +74,3 @@ function openTab(tabId) {
   event.target.classList.add('active');
 }
 </script>
-
-
-{% capture notebook %}
-{% include AGOL_Dependency_Automator_GitHub.md %}
-{% endcapture %}
-
-{{notebook | markdownify}}
