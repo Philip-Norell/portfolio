@@ -6,6 +6,15 @@ title: Home
 # Welcome to My Website
 
 <style>
+.full-width {
+  width: 100%;
+  max-width: 1600px;   /* increase this */
+  margin: 0 auto;
+}
+</style>
+
+<div class="full-width">
+<style>
 .tabs {
   display: flex;
   border-bottom: 2px solid #ddd;
@@ -74,3 +83,4 @@ function openTab(tabId) {
   event.target.classList.add('active');
 }
 </script>
+</div>
