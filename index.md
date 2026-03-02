@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Home
+title: Philip Norell's Portfolio
 ---
 
-# Welcome to My Website
+# Feel free to browse!
 
 <style>
 #main_content_wrap.outer {
