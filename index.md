@@ -10,4 +10,4 @@ title: Home
 {% include AGOL_Dependency_Automator_GitHub.md %}
 {% endcapture %}
 
-{{ notebook | markdownify }}
+{{notebook | markdownify}}
