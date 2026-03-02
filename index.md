@@ -6,41 +6,12 @@ title: Home
 # Welcome to My Website
 
 <style>
-/* Make content wider */
-.wrapper,
-.container,
-.page-content,
-.main-content {
-  max-width: 1600px !important;
-  width: 95% !important;
-}
-
-/* Tabs styling */
-.tabs {
-  display: flex;
-  border-bottom: 2px solid #ddd;
-  margin-bottom: 1rem;
-}
-
-.tab-button {
-  padding: 10px 20px;
-  cursor: pointer;
-  border: none;
-  background: none;
-  font-weight: bold;
-}
-
-.tab-button.active {
-  border-bottom: 3px solid #4CAF50;
-  color: #4CAF50;
-}
-
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
+/* Target the main wrapper in Minimal theme */
+.wrapper {
+  max-width: 1400px !important;  /* widen container */
+  width: 95% !important;          /* responsive width */
+  margin-left: auto !important;   /* center horizontally */
+  margin-right: auto !important;
 }
 </style>
 
