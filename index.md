@@ -3,21 +3,16 @@ layout: default
 title: Home
 ---
 
-<style>
-/* Widen and center the outer wrapper */
-.page-wrapper {
-  max-width: 1400px !important;
-  width: 95% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
+# Welcome to My Website
 
-/* Also widen and center the main content area */
-.content {
-  max-width: 1400px !important;
+<style>
+/* Make content wider */
+.wrapper,
+.container,
+.page-content,
+.main-content {
+  max-width: 1600px !important;
   width: 95% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 
 /* Tabs styling */
@@ -25,8 +20,6 @@ title: Home
   display: flex;
   border-bottom: 2px solid #ddd;
   margin-bottom: 1rem;
-  justify-content: flex-start;
-  width: 100%;
 }
 
 .tab-button {
@@ -50,8 +43,6 @@ title: Home
   display: block;
 }
 </style>
-
-# Welcome to My Website
 
 <div class="tabs">
   <button class="tab-button active" onclick="openTab(event, 'tab1')">Notebook</button>
