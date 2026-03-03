@@ -3,7 +3,7 @@ layout: default
 title: Philip Norell's Portfolio
 ---
 
-# Feel free to browse!
+# Samples of Work
 
 <style>
 #main_content_wrap.outer {
@@ -56,6 +56,8 @@ title: Philip Norell's Portfolio
 </div>
 
 <div id="tab1" class="tab-content active">
+
+  # test
   {% capture notebook %}
   {% include AGOL_Dependency_Automator_GitHub.md %}
   {% endcapture %}
