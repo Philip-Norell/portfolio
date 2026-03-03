@@ -55,10 +55,10 @@ title: Philip Norell's Portfolio
   <button class="tab-button" onclick="openTab(event, 'tab3')">JSON</button>
 </div>
 
-**Summary of Purpose** 
-  This script mostly fulfills the same role as Qonda reports. It's a generalized data governance solution that utilized the ArcGIS API for Python to create data lineage documentation. 
+**Summary of Purpose**  
+This script mostly fulfills the same role as Qonda reports. It's a generalized data governance solution that utilized the ArcGIS API for Python to create data lineage documentation. 
 It requires only one manually created input that maps feature classes to REST/referenced services on ArcServers. It was created before I or anyone else in our shop was aware of Qonda,
-and provides some extra detail. 
+and provides some benefits over Qonda such as creating data lineage snapshots. 
 
 <div id="tab1" class="tab-content active" style="border: 1px solid black; padding: 15px;" markdown="1">
   {% capture notebook %}
