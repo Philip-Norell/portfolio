@@ -1,6 +1,7 @@
 AGOL Dependency Automator
 
-**Summary of Purpose**
+**Summary of Purpose**  
+
         This script mostly fulfills the same role as Qonda reports. It's a generalized data governance solution that utilized the ArcGIS API for Python to create data lineage documentation. 
 It requires only one manually created input that maps feature classes to REST/referenced services on ArcServers. It was created before I or anyone else in our shop was aware of Qonda,
 and provides some benefits over Qonda such as creating data lineage snapshots. 
