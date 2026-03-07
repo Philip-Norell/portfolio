@@ -8,7 +8,7 @@ and provides some benefits over Qonda such as creating data lineage snapshots.
 
 **Notes on Script**
 
-Method
+Method:\
         There are two avenues of data capture in this script.    
     First, it compiles a dictionary of all webmaps in AGOL and parses their related JSONs to extract the services they depend upon. 
     Those services are then matched to a dictionary of feature services and feature classes, producing a dictionary structured like
