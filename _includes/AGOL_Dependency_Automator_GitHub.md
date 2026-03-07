@@ -1,8 +1,7 @@
 AGOL Dependency Automator
 
-**Summary of Purpose**  
-
-This script mostly fulfills the same role as Qonda reports. It's a generalized data governance solution that utilized the ArcGIS API for Python to create data lineage documentation. 
+**Summary of Purpose**\
+        This script mostly fulfills the same role as Qonda reports. It's a generalized data governance solution that utilized the ArcGIS API for Python to create data lineage documentation. 
 It requires only one manually created input that maps feature classes to REST/referenced services on ArcServers. It was created before I or anyone else in our shop was aware of Qonda,
 and provides some benefits over Qonda such as creating data lineage snapshots. 
 
@@ -16,19 +15,19 @@ Method:\
     formatted Excel sheet. Second, the same process is performed on a dictionary of experiences, creating a dictionary strucutred as 
     {experience : {webmap : {service : [feature classes]}}.
 
-Inputs:
+Inputs:\
         This script takes inputs from two sources. The first is directly from Portal/AGOL via the ArcGIS API, and the second is a 
     manually created document detailing which feature classes services consume. The second document must be created and maintained 
     manually, but such maintenance will only be required infrequently due to how seldom feature classes (as well as referenced services)
     are added or removed from SDE. The creation process for the feature class input sheet is detailed in the documentation. 
 
-Limitations: 
+Limitations: \
         This script does not capture which services experiences consume directly without a webmap intermediary.
     To my knowledge, this is possible but may be difficult. Therefore, since our standard practice is for experiences to only
     consume webmaps, I didn't deem this necessary. Furthermore, the orphan services sheet produced does not account for services
     drawn upon by solutions. 
 
-Misc:
+Misc:\
         The dictionary-building code chunks will often return error text along the lines of "Service (ID String) does not exist."
     These are deleted services that retain their itemID but have all attributes such as title and URL erased. If the ID is plugged 
     into a standard AGOL/Portal item URL, it will say the service is deleted or unavailable. 
