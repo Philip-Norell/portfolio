@@ -55,7 +55,7 @@ title: Philip Norell's Portfolio
   <button class="tab-button" onclick="openTab(event, 'tab3')">JSON</button>
 </div>
 
-<div id = "tab1 class = "tab-content>
+<div id = "tab1" class = "tab-content">
   {% capture notebook %}
   {% include AGOL_Dependency_Automator_GitHub.md %}
   {% endcapture %}
