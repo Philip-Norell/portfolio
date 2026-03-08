@@ -56,7 +56,7 @@ title: Philip Norell's Portfolio
   <button class="tab-button" onclick="openTab(event, 'tab4')">JSON</button>
 </div>
 
-<div id = "tab1" class = "tab-content", "active">
+<div id = "tab1" class = "tab-content active">
 
 <div>
 
