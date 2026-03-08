@@ -58,7 +58,8 @@ title: Philip Norell's Portfolio
 
 <div id = "tab1" class = "tab-content active">
 <p>Welcome to my portfolio! I'm a GIS technician specializing in Enterprise and Web GIS. I enjoy solving difficult problems with a bit of research, a bit of code, and a bit of elbow grease!</p>
-<p>I'm passionate about urban design, and I'm looking to work and live in a forward-thinking city I can be proud of as a resident and an employee.<\p>
+<p>I'm passionate about urban design, and I'm looking to work and live in a forward-thinking city I can be proud of as a resident and an employee.</p>
+  
 </div>
 
 <div id = "tab2" class = "tab-content">
