@@ -50,20 +50,24 @@ title: Philip Norell's Portfolio
 </style>
 
 <div class="tabs">
-  <button class="tab-button active" onclick="openTab(event, 'tab1')">Notebook</button>
+  <button class="tab-button active" onclick="openTab(event, 'tab1')">ArcGIS API</button>
   <button class="tab-button" onclick="openTab(event, 'tab2')">Python</button>
   <button class="tab-button" onclick="openTab(event, 'tab3')">JSON</button>
 </div>
 
-<div>
+<div id = "tab1 class = "tab-content>
   {% capture notebook %}
   {% include AGOL_Dependency_Automator_GitHub.md %}
   {% endcapture %}
   {{ notebook | markdownify }}
 </div>
 
-<div id="tab2" class="tab-content" style="border: 1px solid black; padding: 15px;" markdown="1">
- 
+<div id="tab2" class="tab-content">
+<pre><code>
+{
+  "example": true
+}
+</code></pre>
 </div>
 
 <div id="tab3" class="tab-content">
