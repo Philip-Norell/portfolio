@@ -64,7 +64,7 @@ title: Philip Norell's Portfolio
 
 <div id = "tab2" class = "tab-content">
   {% capture notebook %}
-  {% include AGOL_Dependency_Automator_GitHub.md %}
+  {% include PNorell Dependency Automator.md %}
   {% endcapture %}
   {{ notebook | markdownify }}
 </div>
