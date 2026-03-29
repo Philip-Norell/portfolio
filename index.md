@@ -80,10 +80,9 @@ I'm passionate about urban design, and I'm looking to work and live in a forward
 </div>
 
 <div id="tab2" class="tab-content">
-  <div style="margin-bottom: 15px;">
     <strong>I enjoy learning about and visualizing planning and urban design concepts, like in this map that displays data on</strong>
     <strong>zoning restrictiveness in over 2,800 municipalities across the United States.</strong>
-  </div>  
+
        
   
   <div class="map-frame">
