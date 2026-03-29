@@ -1,5 +1,7 @@
 # Solving complicated problems and creating reliable, low-maintenance systems. 
 
+AGOL Depenency Automator Script
+
 This tool was inspired by a workflow developed during my time at the City of Billings, rewritten and heavily pared down for general public use with permission.
 
 Purpose: 
