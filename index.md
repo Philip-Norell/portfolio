@@ -27,6 +27,8 @@ I'm passionate about urban design, and I'm looking to work and live in a forward
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 /* Container Adjustments */
