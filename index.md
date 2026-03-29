@@ -106,6 +106,7 @@ I'm looking to contribute my skills to forward-thinking city I can be proud of a
     <strong>I enjoy learning about and visualizing planning and urban design concepts, like in this map that displays data on</strong>
     <strong>zoning restrictiveness in over 2,800 municipalities across the United States.</strong>
     <p></p>
+    <p>Click a municipality to view more information.</p>
 
        
   
