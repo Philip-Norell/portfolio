@@ -7,7 +7,7 @@ title: Philip Norell's Portfolio
 
 <style>
 #main_content_wrap.outer {
-  max-width: 4000px;    /* widen outer container */
+  max-width: 4001px;    /* widen outer container */
   width: 100%;
   margin-left: auto;    /* center horizontally */
   margin-right: auto;
