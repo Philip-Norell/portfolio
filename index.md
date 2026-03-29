@@ -20,6 +20,7 @@ I'm passionate about urban design, and I'm looking to work and live in a forward
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #main_content.inner {
