@@ -206,7 +206,7 @@ for exp, webmap in exp_dependency_dict.items():
 for exp, webmap in exp_dependency_dict.items():       
     for wmap, service in webmap.items():
         if not service: 
-            webmap[wmap] = [This Webmap has no Supporting Services]       
+            webmap[wmap] = ["This Webmap has no Supporting Services"]       
 
 ```
 
