@@ -81,8 +81,9 @@ I'm passionate about urban design, and I'm looking to work and live in a forward
 
 <div id="tab2" class="tab-content">
   <div style="margin-bottom: 15px;">
-    <h3>National Zoning Restrictiveness Index Map</h3>
-    <p>This interactive map displays data on zoning restrictiveness in over 2,800 municipalities across the United States.  
+    <b>I enjoy learning about and visualizing planning and urban design concepts, like in this map that displays data on</b>
+    <b>zoning restrictiveness in over 2,800 municipalities across the United States.</b>
+  </div>  
        
   
   <div class="map-frame">
@@ -93,6 +94,7 @@ I'm passionate about urban design, and I'm looking to work and live in a forward
       style="border:none; display:block;" 
       loading="lazy">
     </iframe>
+    </div>  
   </div>
 
 
