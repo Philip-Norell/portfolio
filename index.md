@@ -3,7 +3,7 @@ layout: default
 title: Philip Norell's Portfolio
 ---
 
-# Philip Norell: GIS Portfolio
+# At work, I enjoy...
 
 <style>
 /* Container Adjustments */
@@ -83,9 +83,9 @@ title: Philip Norell's Portfolio
 
 <div id="tab3" class="tab-content">
   <div style="margin-bottom: 15px;">
-    <h3>National Zoning Restrictiveness Index</h3>
-    <p>This interactive map visualizes land-use regulations across 4,000+ municipalities using data retrieved via the ArcGIS REST API. 
-       <strong>Click on any marker</strong> to view the specific index score for that city.</p>
+    <h3>National Zoning Restrictiveness Index Map</h3>
+    <p>This interactive map displays data on zoning restrictiveness in over 2,800 municipalities across the United States.  
+       
   </div>
 
   <div class="map-frame">
@@ -97,7 +97,6 @@ title: Philip Norell's Portfolio
       loading="lazy">
     </iframe>
   </div>
-  <p style="margin-top: 10px;"><small><em>Note: High values indicate more restrictive zoning environments.</em></small></p>
 </div>
 
 <div id="tab4" class="tab-content">
