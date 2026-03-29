@@ -53,13 +53,10 @@ if web_exps:
         exptitle.append(web_exp.title)
         expid.append(web_exp.id)
         expitems.append(web_exp)
-        
-tempitemdictexp = dict(zip(expid, expitems))
               
 expdict = dict(zip(exptitle, expid)) 
 
-portal_item_dict = tempitemdictexp | tempitemdictdash | tempitemdictmap
-```
+portal_item_dict = tempitemdictexp
 
 
 ```python
