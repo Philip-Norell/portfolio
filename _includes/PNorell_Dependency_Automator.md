@@ -174,7 +174,7 @@ for key in expdict:
 
 ```python
 # Creates a nested dictionary detailing all dependency levels.
-# The dictionary is formatted as follows: {Experience: {Web Map: {Service: [Feature Class]}}}
+# The dictionary is formatted as follows: {Experience: {Web Map: [Service]}}
 
 exp_dependency_dict = {}
 for key in experience_dependency_dict: #Looping over experiences
@@ -202,40 +202,14 @@ for key in experience_dependency_dict: #Looping over experiences
 # Accounting for edge cases such as maps with no services, experiences with no maps, etc. 
 for exp, webmap in exp_dependency_dict.items():
     if not webmap:
-        exp_dependency_dict[exp] = {"This Experience has no Supporting Services" : {"Likely no Webmap, Likely no Services": ["Likely no Services, Likely no FCs"]}}
+        exp_dependency_dict[exp] = {"This Experience has no Supporting Services" : ["Likely no Webmap, Likely no Services"]}
 for exp, webmap in exp_dependency_dict.items():       
     for wmap, service in webmap.items():
         if not service: 
-            webmap[wmap] = {"This Webmap has no Supporting Services": ["No Services Therefore no FCs"]}        
+            webmap[wmap] = [This Webmap has no Supporting Services]       
 
 ```
 
-
-```python
-# Creation of dashboard dependency dictionaries. Splits dependencies into flat and heiarchical structures e.g. {dashboard : service} and
-# {dashboard : {webmap: {service}}}
-
-dashboard_map_dependency_dict = {}
-dashboard_service_dependency_dict = {}
-
-
-for key in dashdict:
-    temp_map_list = []
-    temp_service_list = []
-    try:
-        dashboard = portal_item_dict.get(dashdict[key])
-        func_in = dashboard.get_data()
-        final = find_web_maps(func_in)
-        for each in final:
-            if "Web Map" in each:
-                temp_map_list.append(each)
-                dashboard_map_dependency_dict[key] = temp_map_list
-            else: 
-                temp_service_list.append(each)
-                dashboard_service_dependency_dict[key] = temp_service_list
-    except Exception as e:
-        print(f'{key}{e}')
-```
 
 
 ```python
