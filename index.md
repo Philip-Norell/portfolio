@@ -33,10 +33,10 @@ I'm passionate about urban design, and I'm looking to work and live in a forward
   margin-right: auto;
 }
 
-#header_wrap.inner {
+#header_wrap .inner {
   max-width: 1000px;
   width: 95%;
-  margin-left: 25%;
+  margin-left: auto;
   margin-right: auto;
 }
 
