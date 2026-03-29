@@ -16,7 +16,7 @@ I'm looking to contribute my skills to forward-thinking city I can be proud of a
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("https://media.discordapp.net/attachments/994223342372528219/1487877765372973308/Kismet_compressed.png?ex=69cabda6&is=69c96c26&hm=927060c6f8af79b4dedfc148d49026d38fa93563ef2f0fa5c259940a334379ba&=&format=webp&quality=lossless&width=1536&height=864"); 
+  background-image: url("https://img.freepik.com/free-photo/grunge-paper-background_1048-10791.jpg?semt=ais_incoming&w=740&q=80"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
