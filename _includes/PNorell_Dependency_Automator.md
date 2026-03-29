@@ -8,7 +8,7 @@ Purpose:
 This script automates the creation of dependency lineage documentation for AGOL Web Experiences. While this specific script only details the flow of data from services into webmaps into Experiences, it can be expanded to cover all AGOL/Portal applications and dig down to the feature class level, allowing the mapping of feature classes to user-facing applications. 
 
 Method:
-This script compiles a dictionary of all webmaps in AGOL and parses their related JSONs to extract the services they depend upon and then creates a dictionary structured as {experience : {webmap : [services]}}. This is converted into a Pandas dataframe and then written to a formatted excel sheet. 
+This script compiles a dictionary of all Experiences in AGOL and parses their related JSONs to extract the webmaps and services services they depend upon, which are then fed into a dictionary structured and as {experience : {webmap : [services]}}. This is then converted into a Pandas dataframe and written to a formatted excel sheet. 
         
 
 
