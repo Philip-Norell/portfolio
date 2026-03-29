@@ -5,9 +5,9 @@ title: Philip Norell's Portfolio
 
 # About me
 
-Welcome to my portfolio! I'm a GIS technician specializing in Enterprise and Web GIS. I enjoy solving difficult problems with a bit of research, a bit of code, and a bit of elbow grease!
+I'm an early GIS professional in Enterprise and Web GIS. I enjoy solving difficult problems with a bit of research, a bit of code, and a bit of elbow grease!
 
-I'm passionate about urban design, and I'm looking to work and live in a forward-thinking city I can be proud of as a resident and an employee. Please feel free to explore the tabs below!
+I'm looking to contribute my skills to forward-thinking city I can be proud of as a resident and an employee. Please feel free to explore the tabs below!
 
 <style>
 /* Container Adjustments */
