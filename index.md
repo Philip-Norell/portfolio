@@ -69,17 +69,29 @@ title: Philip Norell's Portfolio
   {{ notebook | markdownify }}
 </div>
 
-div id="tab3" class="tab-content">
-  <div class="project-header" style="margin-bottom: 20px;">
-    <h2>National Zoning Restrictiveness Index (ZRI)</h2>
-    <p>This interactive visualization maps the regulatory landscape of over 4,000 U.S. municipalities. By analyzing complex zoning data, this tool identifies regional trends in housing supply constraints and urban policy.</p>
-    <p><small><em>Features: Click markers for detailed city-level index scores; use the legend for regional comparisons.</em></small></p>
+<div id="tab3" class="tab-content">
+<div style="margin-bottom: 15px;">
+    <h3>National Zoning Restrictiveness Index</h3>
+    <p>Interactive visualization of land-use regulations across 4,000+ municipalities. 
+       <em>(Click markers for city-level data)</em></p>
   </div>
 
+  <div class="map-frame" style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+    <iframe 
+      src="zri_index_map.html" 
+      width="100%" 
+      height="700px" 
+      style="border:none; display:block;" 
+      loading="lazy">
+    </iframe>
+  </div>
+</div>
+  
   <div class="map-wrapper" style="position: relative; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #f9f9f9;">
     <iframe src="zri_index_map.html" width="100%" height="700px" style="border:none; display: block;" loading="lazy"></iframe>
   </div>
 </div>
+
 <div id="tab4" class="tab-content">
 <pre><code>
 {
