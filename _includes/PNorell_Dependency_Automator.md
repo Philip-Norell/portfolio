@@ -1,8 +1,7 @@
 
-**Solving complicated problems and creating reliable, low-maintenance systems.**
+**Solving complicated problems and creating reliable, low-maintenance systems, like with this AGOL Depenency Automator Script**
 
-AGOL Depenency Automator Script
-
+About:
 This tool was inspired by a workflow developed during my time at the City of Billings, rewritten and heavily pared down for general public use with permission.
 
 Purpose: 
