@@ -16,7 +16,7 @@ I'm looking to contribute my skills to forward-thinking city I can be proud of a
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("https://img.freepik.com/free-photo/grunge-paper-background_1048-10791.jpg?semt=ais_incoming&w=740&q=80"); 
+  background-image: url(); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
