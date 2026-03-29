@@ -3,18 +3,19 @@ layout: default
 title: Philip Norell's Portfolio
 ---
 
-# Contents
+# Philip Norell: GIS Portfolio
 
 <style>
+/* Container Adjustments */
 #main_content_wrap.outer {
-  max-width: 4001px;    /* widen outer container */
+  max-width: 4001px;
   width: 100%;
-  margin-left: auto;    /* center horizontally */
+  margin-left: auto;
   margin-right: auto;
 }
 
 #main_content.inner {
-  max-width: 1000px;    /* widen inner container */
+  max-width: 1000px;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -33,6 +34,8 @@ title: Philip Norell's Portfolio
   border: none;
   background: none;
   font-weight: bold;
+  font-family: inherit;
+  font-size: 1rem;
 }
 
 .tab-button.active {
@@ -42,60 +45,67 @@ title: Philip Norell's Portfolio
 
 .tab-content {
   display: none;
+  padding-top: 10px;
 }
 
 .tab-content.active {
   display: block;
+}
+
+/* Map specific styling */
+.map-frame {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: #fff;
 }
 </style>
 
 <div class="tabs">
   <button class="tab-button active" onclick="openTab(event, 'tab1')">About Me</button>
   <button class="tab-button" onclick="openTab(event, 'tab2')">ArcGIS API</button>
-  <button class="tab-button" onclick="openTab(event, 'tab3')">Python</button>
-  <button class="tab-button" onclick="openTab(event, 'tab4')">JSON</button>
+  <button class="tab-button" onclick="openTab(event, 'tab3')">Python & Visualization</button>
+  <button class="tab-button" onclick="openTab(event, 'tab4')">JSON/Data Structures</button>
 </div>
 
-<div id = "tab1" class = "tab-content active">
-<p>Welcome to my portfolio! I'm a GIS technician specializing in Enterprise and Web GIS. I enjoy solving difficult problems with a bit of research, a bit of code, and a bit of elbow grease!</p>
-<p>I'm passionate about urban design, and I'm looking to work and live in a forward-thinking city I can be proud of as a resident and an employee.</p>
-  
+<div id="tab1" class="tab-content active">
+  <p>Welcome to my portfolio! I'm a GIS technician specializing in Enterprise and Web GIS. I enjoy solving difficult problems with a bit of research, a bit of code, and a bit of elbow grease!</p>
+  <p>I'm passionate about urban design, and I'm looking to work and live in a forward-thinking city I can be proud of as a resident and an employee.</p>
 </div>
 
-<div id = "tab2" class = "tab-content">
+<div id="tab2" class="tab-content">
   {% capture notebook %}
-  {% include PNorell_Dependency_Automator.md %}
+    {% include "PNorell_Dependency_Automator.md" %}
   {% endcapture %}
   {{ notebook | markdownify }}
 </div>
 
 <div id="tab3" class="tab-content">
-<div style="margin-bottom: 15px;">
+  <div style="margin-bottom: 15px;">
     <h3>National Zoning Restrictiveness Index</h3>
-    <p>Interactive visualization of land-use regulations across 4,000+ municipalities. 
-       <em>(Click markers for city-level data)</em></p>
+    <p>This interactive map visualizes land-use regulations across 4,000+ municipalities using data retrieved via the ArcGIS REST API. 
+       <strong>Click on any marker</strong> to view the specific index score for that city.</p>
   </div>
 
-  <div class="map-frame" style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <div class="map-frame">
     <iframe 
       src="zri_index_map.html" 
       width="100%" 
-      height="700px" 
+      height="750px" 
       style="border:none; display:block;" 
       loading="lazy">
     </iframe>
   </div>
-</div>
-  
-  <div class="map-wrapper" style="position: relative; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #f9f9f9;">
-    <iframe src="zri_index_map.html" width="100%" height="700px" style="border:none; display: block;" loading="lazy"></iframe>
-  </div>
+  <p style="margin-top: 10px;"><small><em>Note: High values indicate more restrictive zoning environments.</em></small></p>
 </div>
 
 <div id="tab4" class="tab-content">
 <pre><code>
 {
-  "example": true
+  "focus": "Enterprise GIS",
+  "skills": ["Python", "ArcPy", "SQL", "Leaflet"],
+  "goal": "Urban Policy Optimization"
 }
 </code></pre>
 </div>
