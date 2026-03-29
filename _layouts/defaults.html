@@ -9,46 +9,7 @@
 
 {% seo %}
     {% include head-custom.html %}
-    <style>
-  /* This centers items horizontally and aligns them vertically */
-  header.inner {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    flex-wrap: wrap; /* Helps on mobile */
-  }
-
-  .header-img {
-    width: 80px;         /* Adjust size as you like */
-    height: 80px;
-    border-radius: 50%;  /* Makes it a circle */
-    margin-right: 20px;
-    border: 2px solid #fff;
-    object-fit: cover;
-  }
-
-  /* Ensures the title and tagline stay stacked */
-  .header-text-container {
-    flex: 1; 
-  }
-
-  #project_title {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  #project_tagline {
-    margin: 5px 0 0 0 !important;
-  }
-
-  /* Fix for the GitHub ribbon overlapping text */
-  #forkme_banner {
-    position: relative !important;
-    top: 0 !important;
-    right: 0 !important;
-    margin-left: auto;
-  }
-</style>
+ 
   </head>
 
   <body>
@@ -59,9 +20,11 @@
           {% if site.github.is_project_page %}
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
-
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          
+      <div style = "flex-grow: 1;">
+          <h1 id="project_title" style="margin: 0; font-size: 2.5em; float: none;">{{ site.title | default: site.github.repository_name }}</h1>
+          <h2 id="project_tagline" style="margin: 5px 0 0 0; font-weight: normal; opacity: 0.8; float: none;">{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
 
           {% if site.show_downloads %}
             <section id="downloads">
