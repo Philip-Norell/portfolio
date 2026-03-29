@@ -3,7 +3,11 @@ layout: default
 title: Philip Norell's Portfolio
 ---
 
-# At work, I enjoy...
+# About me
+
+Welcome to my portfolio! I'm a GIS technician specializing in Enterprise and Web GIS. I enjoy solving difficult problems with a bit of research, a bit of code, and a bit of elbow grease!
+
+I'm passionate about urban design, and I'm looking to work and live in a forward-thinking city I can be proud of as a resident and an employee. Please feel free to explore the tabs below!
 
 <style>
 /* Container Adjustments */
@@ -63,31 +67,24 @@ title: Philip Norell's Portfolio
 </style>
 
 <div class="tabs">
-  <button class="tab-button active" onclick="openTab(event, 'tab1')">About Me</button>
-  <button class="tab-button" onclick="openTab(event, 'tab2')">ArcGIS API</button>
-  <button class="tab-button" onclick="openTab(event, 'tab3')">Python & Visualization</button>
-  <button class="tab-button" onclick="openTab(event, 'tab4')">JSON/Data Structures</button>
+  <button class="tab-button active" onclick="openTab(event, 'tab1')">At Work I Take Pride in...</button>
+  <button class="tab-button" onclick="openTab(event, 'tab2')">Academically...</button>
+  <button class="tab-button" onclick="openTab(event, 'tab3')">In My Free Time...</button>
 </div>
 
-<div id="tab1" class="tab-content active">
-  <p>Welcome to my portfolio! I'm a GIS technician specializing in Enterprise and Web GIS. I enjoy solving difficult problems with a bit of research, a bit of code, and a bit of elbow grease!</p>
-  <p>I'm passionate about urban design, and I'm looking to work and live in a forward-thinking city I can be proud of as a resident and an employee.</p>
-</div>
-
-<div id="tab2" class="tab-content">
+<div id="tab1" class="tab-content">
   {% capture notebook %}
     {% include PNorell_Dependency_Automator.md %}
   {% endcapture %}
   {{ notebook | markdownify }}
 </div>
 
-<div id="tab3" class="tab-content">
+<div id="tab2" class="tab-content">
   <div style="margin-bottom: 15px;">
     <h3>National Zoning Restrictiveness Index Map</h3>
     <p>This interactive map displays data on zoning restrictiveness in over 2,800 municipalities across the United States.  
        
-  </div>
-
+  
   <div class="map-frame">
     <iframe 
       src="zri_index_map.html" 
@@ -97,9 +94,9 @@ title: Philip Norell's Portfolio
       loading="lazy">
     </iframe>
   </div>
-</div>
 
-<div id="tab4" class="tab-content">
+
+<div id="tab3" class="tab-content">
 <pre><code>
 {
   "focus": "Enterprise GIS",
