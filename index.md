@@ -70,11 +70,7 @@ title: Philip Norell's Portfolio
 </div>
 
 <div id="tab3" class="tab-content">
-<pre><code>
-{
-  "example": true
-}
-</code></pre>
+<iframe src="zri_index_map.html" width="100%" height="800px" style="border:none;"></iframe>
 </div>
 
 <div id="tab4" class="tab-content">
