@@ -67,7 +67,7 @@ I'm passionate about urban design, and I'm looking to work and live in a forward
 </style>
 
 <div class="tabs">
-  <button class="tab-button active" onclick="openTab(event, 'tab1')">At Work I Take Pride in...</button>
+  <button class="tab-button" onclick="openTab(event, 'tab1')">At Work I Take Pride in...</button>
   <button class="tab-button" onclick="openTab(event, 'tab2')">Academically...</button>
   <button class="tab-button" onclick="openTab(event, 'tab3')">In My Free Time...</button>
 </div>
