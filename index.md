@@ -25,6 +25,22 @@ I'm passionate about urban design, and I'm looking to work and live in a forward
   margin-right: auto;
 }
 
+/* Container Adjustments */
+#header_wrap.outer {
+  max-width: 4000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header.inner {
+  max-width: 1000px;
+  width: 95%;
+  margin-left: 25%;
+  margin-right: auto;
+}
+
+
 /* Tabs styling */
 .tabs {
   display: flex;
