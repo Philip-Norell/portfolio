@@ -123,13 +123,7 @@ I'm looking to contribute my skills to forward-thinking city I can be proud of a
 
 
 <div id="tab3" class="tab-content">
-<pre><code>
-{
-  "focus": "Enterprise GIS",
-  "skills": ["Python", "ArcPy", "SQL", "Leaflet"],
-  "goal": "Urban Policy Optimization"
-}
-</code></pre>
+<p>placeholder</p>
 </div>
 
 <script>
