@@ -29,8 +29,6 @@ os.mkdir(fr"filepath\AGOL_Dependencies_{formatted_date_mdy}")
 
 
 ```python
-# Imports experiences, apps and maps from AGOL and converts them into dictionaries. 
-# Apps are not used in the code, but it could be adapted such that apps replace experiences.
 
 expitems = []
 exptitle = []
