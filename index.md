@@ -76,7 +76,7 @@ title: Philip Norell's Portfolio
 
 <div id="tab2" class="tab-content">
   {% capture notebook %}
-    {% include "PNorell_Dependency_Automator.md" %}
+    {% include PNorell_Dependency_Automator.md %}
   {% endcapture %}
   {{ notebook | markdownify }}
 </div>
