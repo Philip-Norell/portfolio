@@ -123,7 +123,10 @@ I'm looking to contribute my skills to forward-thinking city I can be proud of a
 
 
 <div id="tab3" class="tab-content">
-<p>placeholder</p>
+  <img 
+      src="https://github.com/Philip-Norell/Portfolio/blob/main/FantasyMap.WEBP" 
+      style="width: 100%; height: auto; display: block;"
+    >
 </div>
 
 <script>
