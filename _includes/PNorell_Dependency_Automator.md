@@ -121,7 +121,6 @@ def dependency_recursion(data,found_values=None):
     
     return found_values
     
-# AI-created alphabet generator function
 def make_alphabet(n):
     labels = []
     while len(labels) < n:
