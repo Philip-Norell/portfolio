@@ -123,8 +123,9 @@ I'm looking to contribute my skills to forward-thinking city I can be proud of a
 
 
 <div id="tab3" class="tab-content">
+  <strong>Creating fantasy maps</strong>
   <img 
-      src="FantasyMap.WEBP" 
+      src="FantasyMap.webp-1" 
       style="width: 100%; height: auto; display: block;"
     >
 </div>
