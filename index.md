@@ -127,7 +127,7 @@ I'm looking to contribute my skills to forward-thinking city I can be proud of a
   <div class="map-frame" style="width: 100%; max-width: 100%;">
     <img 
       src="FantasyMap-1.webp" 
-      style="width: 100%; height: auto; display: block; border: none;"
+      style="width: 100%; min-width: 100%; height: auto; display: block; border: none;"
     >
 </div>
 
