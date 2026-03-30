@@ -123,7 +123,7 @@ I'm looking to contribute my skills to forward-thinking city I can be proud of a
 
 
 <div id="tab3" class="tab-content">
-  <strong>Creating fantasy maps</strong>
+  <strong>I like to create fantasy maps</strong>
   <img 
       src="FantasyMap-1.webp" 
       style="width: 100%; height: auto; display: block;"
